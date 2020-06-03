@@ -1,0 +1,17 @@
+.content {
+  padding: 20px;
+}
+
+.ant-layout {
+  height: 100%;
+}
+
+.ant-layout-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo {
+    margin: 0;
+  }
+}

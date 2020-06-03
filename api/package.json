@@ -1,0 +1,37 @@
+{
+  "name": "ticketing-system-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/martin-nazaryan/ticketing-system/api",
+  "author": "Martin Nazaryan",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.6",
+    "axios": "^0.19.2",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.15",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-jwt.socketio": "^0.1.1",
+    "socket.io": "^2.3.0"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js",
+    "lint": "eslint --ext .js ./"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.1.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "nodemon": "^2.0.4"
+  }
+}
