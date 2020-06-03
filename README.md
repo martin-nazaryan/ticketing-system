@@ -5,7 +5,7 @@ An awesome app, powered with express.js, react.js, socket.io, ant.design
 - `cd path/to/repo/server or front`
 - `yarn` or `npm install`
 - copy `.env.example` file to `.env`, set your variables
-- `yarn start` or `npm start` for start up http-server
+- `yarn start` or `npm start`
 - Enjoy 😎 🎺
 
 To create a ticket from `postman` or `insomnia`, you must first login into system.
